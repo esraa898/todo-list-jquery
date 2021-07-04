@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-image: url("../img/Zoom\ Sparkle\ Background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.main {
+  width: 90%;
+  margin-bottom: 100px;
+}
+.main .container {
+  width: 80%;
+  margin-inline-start: auto;
+  text-align: center;
+  margin-top: 20px;
+}
+.container h1 {
+  font-size: 62px;
+  line-height: 2.3;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #1c5f83;
+}
+/* .row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+} */
+.input {
+  width: 41%;
+  padding: 20px 0;
+  margin-bottom: 41px;
+  outline: none;
+}
+#add {
+  border: 1px solid #1c5f83;
+  background-color: #1c5f83;
+  color: white;
+  width: 97px;
+  height: 53px;
+  font-size: 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+}
+
+.del {
+  background-color: #66bd63;
+  color: white;
+  width: 60px;
+  height: 34px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid #66bd63;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.edit {
+  background-color: red;
+  color: white;
+  width: 53px;
+  height: 34px;
+  font-size: 14px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  outline: none;
+  border: 1px solid red;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.res{
+  margin-inline-start: auto;
+  width:75%;
+}
+.design{
+  padding: 10px 10px;
+        margin-bottom:20px;
+        outline: none;
+        border:1px solid gray;
+        width: 400px;
+        display:flex;
+        justify-content: space-evenly;
+
+}
